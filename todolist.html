@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-Liste</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/Style.css">
+        
+    <!-- Font Awesome -->
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <div class="intro">
+        <h1>ToDo-Liste</h1>
+    </div>
+
+    <div class="hilfeText">
+        <p>Gibt Text im Eingabefeld ein, um Aufgaben zur Liste hinzuzufügen.</p>
+        <p>Klicke auf eine Aufgabe, um sie als erledigt zu markieren.</p>
+        <p>Klicke auf "X", um eine Aufgabe aus der list zu entfernen.</p>
+    </div>
+
+    <div id="Nutzereingabe">
+        <input id="userInput" type="text" placeholder="Neue Aufgabe" maxlength="27">
+        <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+    </div>
+
+    <!-- Leere Liste-->
+    <div class="listItems">
+        <ul class="list"> 
+        </ul>
+    </div>
+
+    <!-- Scripts-->
+    <script src="js/Code.js"></script>
+</body>
+</html>
